@@ -4,4 +4,4 @@ image:
 replicas: 3
 namespace: services
 networking:
-  hostname: ""
+  hostname: "nginx.vigraha.xyz"

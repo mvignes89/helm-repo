@@ -3,7 +3,17 @@ entries:
   external-dns:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-21T22:23:29.701365+04:00"
+    created: "2023-12-22T00:50:38.872313+04:00"
+    description: A Helm chart for Kubernetes
+    digest: 0a5e9c51de91b1bf25908114f5f2c83aabb87d37929ff8a2e899c45595c1c218
+    name: external-dns
+    type: application
+    urls:
+    - https://mvignes89.github.io/helm-repo/external-dns-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-22T00:50:38.871948+04:00"
     description: A Helm chart for Kubernetes
     digest: 45b694d549ef899fde233695689cb49ed49f1ed1bfd9dd1bc28ca0275133c908
     name: external-dns
@@ -14,7 +24,17 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-21T22:23:29.70159+04:00"
+    created: "2023-12-22T00:50:38.87275+04:00"
+    description: A Helm chart for Kubernetes
+    digest: 01e5b3bcba079532d71b048127efbaaf2af87b07944f16a5cdbdbbdfb975ea44
+    name: nginx
+    type: application
+    urls:
+    - https://mvignes89.github.io/helm-repo/nginx-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-22T00:50:38.872532+04:00"
     description: A Helm chart for Kubernetes
     digest: ad3b7539b13a69f0868658204720ee251292833c70b8a35bcb2fcf0ccd1e67cd
     name: nginx
@@ -25,7 +45,21 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-21T22:23:29.729041+04:00"
+    created: "2023-12-22T00:50:38.929794+04:00"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 51.7.0
+    description: A Helm chart for Kubernetes
+    digest: 455f7f175914e2be76fbb194a57c78da513ea5269ff15ae50c353d6fe3d0d54a
+    name: prometheus
+    type: application
+    urls:
+    - https://mvignes89.github.io/helm-repo/prometheus-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-22T00:50:38.902597+04:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -37,4 +71,4 @@ entries:
     urls:
     - https://mvignes89.github.io/helm-repo/prometheus-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-21T22:23:29.700868+04:00"
+generated: "2023-12-22T00:50:38.871433+04:00"
