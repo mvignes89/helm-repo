@@ -1,0 +1,40 @@
+apiVersion: v1
+entries:
+  external-dns:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-21T22:23:29.701365+04:00"
+    description: A Helm chart for Kubernetes
+    digest: 45b694d549ef899fde233695689cb49ed49f1ed1bfd9dd1bc28ca0275133c908
+    name: external-dns
+    type: application
+    urls:
+    - https://mvignes89.github.io/helm-repo/external-dns-0.1.0.tgz
+    version: 0.1.0
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-21T22:23:29.70159+04:00"
+    description: A Helm chart for Kubernetes
+    digest: ad3b7539b13a69f0868658204720ee251292833c70b8a35bcb2fcf0ccd1e67cd
+    name: nginx
+    type: application
+    urls:
+    - https://mvignes89.github.io/helm-repo/nginx-0.2.0.tgz
+    version: 0.2.0
+  prometheus:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-21T22:23:29.729041+04:00"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 51.7.0
+    description: A Helm chart for Kubernetes
+    digest: cc51f3e27a7fecfc21226e04dd504befdca13001974ed4804706bb7df4540476
+    name: prometheus
+    type: application
+    urls:
+    - https://mvignes89.github.io/helm-repo/prometheus-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-12-21T22:23:29.700868+04:00"
